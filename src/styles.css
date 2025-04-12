@@ -2,6 +2,24 @@ body {
     margin: 0;
 }
 
-nav a {
+nav a:nth-child(even) {
     background-color: grey;
+}
+
+span {
+    background-color: aqua;
+}
+span span {
+    background-color: rgb(39, 238, 39);
+}
+span span span {
+    background-color: red;
+}
+
+p:last-child {
+    margin-top: 100px;
+}
+
+p:nth-child(3) {
+    margin-bottom: 100px;
 }

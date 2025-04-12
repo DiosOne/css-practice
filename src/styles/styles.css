@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    
 }
 
-a:nth-child(2n) {
+nav a {
     background-color: grey;
 }

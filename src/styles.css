@@ -1,7 +1,12 @@
 body {
-    margin: 0;
+    margin: 20px;
 }
 
+header {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 nav {
     margin-bottom: 20px;
 }
@@ -18,10 +23,6 @@ span span {
 }
 span span span {
     background-color: red;
-}
-
-p:last-child {
-    margin-top: 100px;
 }
 
 p:nth-child(3) {
